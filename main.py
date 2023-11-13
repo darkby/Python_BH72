@@ -29,7 +29,15 @@
 
 #First task (two way)
 
+n1 = int(input('Enter decimal please '))
+a2 = [2] * n1
+b2 = list(range(1, n1+1))
+print(a2)
+print(b2)
+result_list = list(map(pow, a2, b2))
+print(result_list)
 
+#Two task (two way)
 
 
 
